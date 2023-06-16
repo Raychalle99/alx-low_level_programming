@@ -1,0 +1,3 @@
+
+iiintf "%x\n" $DECIMAL
+iiintf "%x\n" $DECIMAL
