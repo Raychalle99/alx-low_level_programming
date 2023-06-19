@@ -25,11 +25,11 @@ int main(void)
                     putchar(',');
                     putchar(' ');
                 }
-                j++;
         }
-        j = '0';
-        i++;
+j++;
     }
-    return (0);
+j = '0';
+i++;
 }
+return (0);
 }
