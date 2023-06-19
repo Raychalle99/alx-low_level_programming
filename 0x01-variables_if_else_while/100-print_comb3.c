@@ -6,24 +6,24 @@
  */
 int main(void)
 {
-	int n;
-	int m;
+	int i = '0';
+	int j = '0';
 
-	for (n = 0; n <= 9; n++)
+	while (i <= '9')
 	{
-		for (m = 0; m <= 9; m++)
+		while (j <= '9')
 		{
-			putchar(n + '0');
-			putchar(m + '0');
+			if ((!(i > j) || (i == j)
+			{
+				putchar(i);
+				putchar(j);
+				if (i == '8' && j == '9')
 
-		if (n != 9 || m != 9);
-		{
+			{
 			putchar(',');
-			putchar (' ');
-		}
+			putchar(' ');
+			putchar('\n');
 		}
 	}
-
-	putchar('\n');
 	return (0);
 }
