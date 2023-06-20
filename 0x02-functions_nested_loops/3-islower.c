@@ -1,5 +1,5 @@
 #include "main.h"
-/*
+/**
  * main - check the code
  * Description: lowercase character
  * Return: always 0
