@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * main - Enrty point
+ * main - check the code
  * Description: prints _putchar to stdout
  * Return: always 0 (success)
  */
