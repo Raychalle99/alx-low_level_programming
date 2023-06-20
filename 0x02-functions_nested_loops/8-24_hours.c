@@ -1,10 +1,8 @@
 #include "main.h"
 /**
  * jack_bauer - prints all possible times in a 24-hour clock format
- *
  * This function iterates through all possible combinations of hours
  * and minute in a 24-hour clock format and prints them.
- *
  * Return: no return
  */
 void jack_bauer(void)
@@ -31,4 +29,4 @@ _putchar('\n');
 }
 }
 }
-}		
+}
