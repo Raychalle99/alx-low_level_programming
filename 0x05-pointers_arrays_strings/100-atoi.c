@@ -15,15 +15,28 @@ int digit_found = 0;
 while (s[i])
 {
 if (s[i] == '-')
+{
 sign *= -1;
+i++;
+}
+else if (s[i] == '+')
+{
+i++;
+}
 else if (s[i] >= '0' && s[i] <= '9')
 {
 result = result * 10 + (s[i] - '0');
 digit_found = 1;
+i++;
 }
 else if (digit_found)
+{
 break;
+}
+else
+{
 i++;
+}
 }
 return (result);
 }
