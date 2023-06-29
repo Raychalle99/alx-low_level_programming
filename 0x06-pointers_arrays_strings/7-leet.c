@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * @leet - function that encodes a string
+ * leet - function that encodes a string
  * Letters a and A should be replaced by 4
  * Letters e and E should be replaced by 3
  * Letters o and O should be replaced by 0
