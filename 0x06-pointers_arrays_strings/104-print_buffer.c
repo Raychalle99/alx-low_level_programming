@@ -11,9 +11,7 @@
 void print_buffer(char *b, int size)
 {
 int o, j, i;
-
 o = 0;
-
 if (size <= 0)
 {
 printf("\n");
@@ -26,7 +24,7 @@ printf("%08x: ", o);
 for (i = 0; i < 10; i++)
 {
 if (i < j)
-printf("%02x", *(b + o + i));
+printf("%02x", *(unsigned char *)(b + o + i));
 else
 printf("  ");
 if (i % 2)
@@ -36,9 +34,8 @@ printf(" ");
 }
 for (i = 0; i < j; i++)
 {
-int c = *(b + o + i);
-
-if (c > 32 || c > 132)
+int c = *(unsigned char *)(b + o + i);
+if (c < 32 || c > 126)
 {
 c = '.';
 }
@@ -46,5 +43,6 @@ printf("%c", c);
 }
 printf("\n");
 o += 10;
+size -= 10;
 }
 }
