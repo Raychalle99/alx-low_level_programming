@@ -37,7 +37,8 @@ int comparator(char *s, int n1, int n2)
 }
 
 /**
- * is_palindrome
+ * is_palindrome - function that returns 1 if a string is a
+ * palindrome and 0 if not
  * @s: string
  * Return: 1 if s is palindrome, 0 if not
  */
