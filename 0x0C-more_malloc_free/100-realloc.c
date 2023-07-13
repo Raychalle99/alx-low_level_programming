@@ -6,7 +6,7 @@
  * _realloc - reallocates a memory block
  * @ptr: pointer to the memory
  * @old_size: size, in bytes, of the allocated space for ptr
- * new_size: new size, in bytes of the new memory block
+ * @new_size: new size, in bytes of the new memory block
  *
  * Return: void
  */
